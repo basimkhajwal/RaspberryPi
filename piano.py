@@ -1,4 +1,4 @@
-from CapacitorSense import *
+from utils.CapacitorSense import *
 from time import sleep
 import pygame.mixer as p
 
