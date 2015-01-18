@@ -15,7 +15,7 @@ music = []
 
 for i in range(8):
     channels.append(p.Channel(i))
-    music.append(p.Sound(sounds[i]))
+    music.append(p.Sound("sounds/" + sounds[i]))
     
 setupCapacitorSensor(4)
 
